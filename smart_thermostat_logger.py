@@ -15,7 +15,7 @@ while read_temp <= 0:
 # 3. Use a for loop to ask for each temperature reading.
 total_temp = 0
 below_comfort_count = 0
-above_comfort_count = 0  # ✅ FIX: Initialize before the for loop
+above_comfort_count = 0  
 
 # 4. Validate that each temperature is between 40 and 100 degrees, inclusive.
 for i in range(read_temp):
